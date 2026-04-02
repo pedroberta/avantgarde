@@ -1,0 +1,15 @@
+# Ignorar arquivos de dados pesados
+data/panel_output/
+AvantGarde/
+*.parquet
+*.csv
+*.xlsx
+
+# Ignorar pastas de ambiente virtual (se usar Python)
+venv/
+.venv/
+__pycache__/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
