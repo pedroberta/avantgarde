@@ -1,14 +1,15 @@
 # Ignorar arquivos de dados pesados
 data/panel_output/
-AvantGarde/
 *.parquet
 *.csv
 *.xlsx
+!AvantGarde/Economatica Ibra + Parâmetros Completos.xlsx
 
 # Ignorar pastas de ambiente virtual (se usar Python)
 venv/
 .venv/
 __pycache__/
+.cursor/
 
 # Ignorar arquivos do sistema
 .DS_Store
